@@ -1,0 +1,1 @@
+:  C:\\Users\\Dell\\OneDrive\\Desktop\\game\\anime_character_website\\web\\index.html

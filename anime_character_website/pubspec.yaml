@@ -1,0 +1,26 @@
+name: anime_character_website
+description: An anime-themed character showcase website in Flutter
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <4.0.0' # Updated for latest Flutter versions
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1 # Updated to latest version
+  vector_math: ^2.1.4 # Add this line
+  audioplayers: ^5.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    # IMPORTANT: Add these new asset paths
+    - assets/images/
+    - assets/audio/background_music.mp3
+    - assets/audio/click_sound.mp3
